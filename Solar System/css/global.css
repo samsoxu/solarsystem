@@ -1,0 +1,481 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.mainContainer{
+	margin: 0;
+	padding: 0;
+}
+
+.coverContainer {
+	display: flex;
+}
+
+.cover{
+	width: 100%;
+}
+
+.navContainer {
+	width: 100%;
+	height: 5%;
+	position: fixed;
+	z-index: 1;
+}
+
+ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.dummy {
+	background-color: rgba(0,0,0,0.3);
+	float: left;
+	width: 27.5%;
+	height: 5vw;
+	line-height: 5vw;
+	text-align: center;
+}
+
+ul li {
+	background-color: rgba(0,0,0,0.3);
+	float: left;
+	width: 15%;
+	height: 5vw;
+	line-height: 5vw;
+	text-align: center;
+}
+
+ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+ul li a:hover{
+	background-color: #444;
+}
+
+ul li ul li {
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+.secondaryContainer {
+	background-image: url('../image/Bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.secondaryContainer1 {
+	background-image: url('../image/Bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.containerSatu {
+	color: white;
+	margin-top: 10%;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.Judul {
+	color: white;
+	margin-bottom: 3vw;
+	text-align: center;
+}
+
+.scroll{
+	height: 30vw;
+	overflow: auto;
+}
+
+.kolomKiri{
+	width: 50%;
+	float: left;
+}
+
+.kolomKanan{
+	width: 50%;
+	float: right;
+}
+
+.deskripsi {
+	text-align: justify;
+	margin-right: 5vw;
+}
+
+.deskripsi a {
+	color: white;
+}
+
+.fact {
+	margin-bottom: 0;
+}
+
+.boxSection {
+	margin-top: 8vw;
+	margin-bottom: 10vw;
+}
+
+.boxKiri {
+	width: 32%;
+	height: 35vw;
+	border: solid 0.2vw;
+	border-radius: 3vw;
+	border-color: rgb(80,173,178);
+	background-color: rgba(255,255,255,0.2);
+	float: left;
+}
+
+.box {
+	width: 31.5%;
+	height: 35vw;
+	border: solid 0.2vw;
+	border-radius: 3vw;
+	border-color: rgb(80,173,178);
+	background-color: rgba(255,255,255,0.2);
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.boxKanan {
+	width: 32%;
+	height: 35vw;
+	border: solid 0.2vw;
+	border-radius: 3vw;
+	border-color: rgb(80,173,178);
+	background-color: rgba(255,255,255,0.2);
+	float: left;
+}
+
+.subJudul {
+	color: white;
+	text-align: center;
+	margin: 4vw;
+}
+
+.deskripsiBox {
+	margin-right: 4vw;
+	margin-left: 4vw;
+}
+
+.descImg {
+	display: block;
+	height: 30vw;
+	position: absolute;
+}
+
+.descImgSat {
+	margin-left: 8.7vw;
+	display: block;
+	height: 30vw;
+	position: absolute;
+}
+
+.more {
+	background-color: rgba(255,255,255,0.2); 
+	border: solid 0.2vw;
+	border-radius: 3vw;
+	border-color: rgb(80,173,178);
+	margin: auto;
+	width: 12vw;
+	margin-top: 6vw;
+	margin-left: 6.7vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	text-decoration: none;
+}
+
+.more:hover {
+	background-color: rgba(255,255,255,0.5); 
+	border: solid 0.2vw;
+	border-radius: 3vw;
+	border-color: rgb(80,173,178);
+	margin: auto;
+	width: 12vw;
+	margin-top: 6vw;
+	margin-left: 6.7vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.containerDua {
+	position: relative;
+	display: flex;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	margin-top: 10vw;
+	margin-bottom: 5vw;
+}
+
+.thumbnail-slider{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.thumbnail-slider .thumbnail-container{
+	width: 100%;
+	float: left;
+	transition: margin 1s ease;
+}
+
+.thumbnail-slider .item{
+	text-align: center;
+	font-size: 15pt;
+	color:#ffffff;
+	float: left;
+}
+
+.thumbnail-slider .controls{
+	width: 100%;
+	float: left;
+	padding:15px;
+}
+
+.thumbnail-slider .controls ul{
+	display: block;
+	text-align: center;
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.thumbnail-slider .controls ul li{
+	height: 3vw;
+	width: 3vw;
+	font-size: 1vw;
+	border-radius: 20px;
+	margin:4px;
+	display: inline-block;
+	line-height: 3vw;
+	cursor: pointer;
+	color: white;
+}
+.thumbnail-slider .controls ul li.active{
+	background-color: white;
+	color: black;
+}
+
+.footer {
+	background-color: rgba(128,128,128,0.6);
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.footContainer {
+	text-align: center;
+	float: none;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color: white;
+}
+
+.aboutUs {
+	color: white;
+	text-decoration: none;
+	margin-right: 3vw; 
+}
+
+.aboutImg {
+	margin-top: 8vw;
+	width: 100%;
+}
+
+.privacy {
+	margin-left: 3vw;
+	color: white;
+	text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll::-webkit-scrollbar {
+    display: block;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(204,204,204,0.3);
+  border-radius: 2px; 
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:  rgba(204,204,204,1); 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background:  rgba(204,204,204,0.7); 
+}
+
+@media only screen and (max-width: 600px) {
+
+	.navContainer {
+		width: 100%;
+		height: 10vw;
+		position: fixed;
+		z-index: 1;
+	}
+
+	ul {
+		margin:0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	.dummy {
+		background-color: rgba(0,0,0,0.3);
+		float: left;
+		width: 20%;
+		height: 10vw;
+		line-height: 10vw;
+		text-align: center;
+	}
+
+	ul li {
+		background-color: rgba(0,0,0,0.3);
+		float: left;
+		width: 20%;
+		height: 10vw;
+		line-height: 10vw;
+		text-align: center;
+	}
+
+	ul li a {
+		text-decoration: none;
+		display: block;
+	}
+
+	ul li a:hover{
+		background-color: #444;
+	}
+
+	ul li ul li {
+		background-color: rgba(0,0,0,0.5);
+		width: 100%;
+		display: none;
+	}
+
+	ul li:hover ul li {
+		display: block;
+	}
+
+	.scroll{
+		height: 50vw;
+		overflow: auto;
+	}
+
+	.kolomKiri{
+		width: 100%;
+	}
+
+	.kolomKanan{
+		width: 100%;
+	}
+
+	.descImg {
+		margin-left: 21vw;
+		margin-bottom: 5vw;
+		display: block;
+		height: 30vw;
+		position: static;
+	}
+
+	.descImgSat {
+		margin-left: 29vw;
+		margin-bottom: 5vw;
+		display: block;
+		height: 30vw;
+		position: static;
+	}
+
+	.boxSection {
+		margin-top: 8vw;
+		margin-bottom: 10vw;
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+
+	.boxKiri, .boxKanan, .box {
+		width: 100%;
+		height: 35vw;
+		border: solid 0.2vw;
+		border-radius: 3vw;
+		border-color: rgb(80,173,178);
+		background-color: rgba(255,255,255,0.2);
+		margin: 2vw 0vw 2vw 0vw;
+	}
+
+	.subJudul {
+		color: white;
+		text-align: center;
+		margin: 4vw;
+	}
+
+	.deskripsiBox {
+		margin-right: 6vw;
+		margin-left: 6vw;
+	}
+
+	.more {
+		background-color: rgba(255,255,255,0.2); 
+		border: solid 0.2vw;
+		border-radius: 3vw;
+		border-color: rgb(80,173,178);
+		margin: auto;
+		width: 15vw;
+		margin-top: 3vw;
+		margin-left: 22.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		text-decoration: none;
+	}
+
+	.more:hover {
+		background-color: rgba(255,255,255,0.5); 
+		border: solid 0.2vw;
+		border-radius: 3vw;
+		border-color: rgb(80,173,178);
+		margin: auto;
+		width: 15vw;
+		margin-top: 3vw;
+		margin-left: 22.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+

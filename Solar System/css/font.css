@@ -1,0 +1,114 @@
+@font-face{
+	font-family: FL;
+	src: url(../font/FL.ttf);
+}
+
+@font-face{
+	font-family: FM;
+	src: url(../font/FM.ttf);
+}
+
+body {
+	font-family: FM;
+}
+
+ul li a {
+	font-size: 1.2vw;
+	color: rgb(204,204,204);
+	font-family: FM;
+	letter-spacing: 0.2vw;
+}
+
+.scroll {
+	text-align: justify;
+	font-family: FL;
+}
+
+.Judul {
+	font-size: 2.7vw;
+	letter-spacing: 0.4vw;
+}
+
+.subJudul {
+	font-size: 2vw;
+}
+
+.deskripsi {
+	line-height: 180%;
+	font-family: FL;
+	font-size: 1.5vw;
+	margin-top: 0;
+}
+
+.deskripsiBox {
+	line-height: 180%;
+	font-family: FL;
+	font-size: 1.3vw;
+}
+
+.fact {
+	font-size: 1.8vw;
+	font-family: FM;
+}
+
+.more {
+	color: white;
+	font-size: 1.5vw;
+	text-align: center;
+	font-family: FM;
+	font-weight: bold;
+}
+
+.footer a {
+	font-size: 1.5vw;
+}
+
+.footer p{
+	font-family: FL;
+	font-size: 1.2vw;
+	line-height: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+
+	ul li a {
+		font-size: 2vw;
+		color: rgb(204,204,204);
+		font-family: FM;
+		letter-spacing: 0.2vw;
+	}
+
+	.Judul {
+		font-size: 5vw
+	}
+
+	.subJudul {
+		font-size: 3vw;
+	}
+
+	.deskripsi {
+		font-size: 2.7vw;
+	}
+
+	.deskripsiBox {
+		font-size: 2.27vw;
+	}
+
+	.more {
+		color: white;
+		font-size: 2.5vw;
+		text-align: center;
+		font-family: FM;
+		font-weight: bold;
+	}
+
+	.footer a {
+		font-size: 2.8vw;
+	}
+
+	.footer p{
+		font-family: FL;
+		font-size: 2.3vw;
+		line-height: 80%;
+	}
+}
