@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Solar System</title>
+	<link rel="shortcut icon" type="image/png" href="image/icon.png"/>
+</head>
+<body  onload="home(home),load()">
+	<div class="mainContainer" id="mainContainer">	
+		<div class="navContainer">
+			<ul>
+				<li class="dummy"><br></li>
+				<li class="dummy"><br></li>
+				<li><a href="#coverContainer" onclick="home(home)">SOLAR SYSTEM</a></li>
+				<li><a href="#navContainer">PLANETS</a>
+					<ul>
+						<li><a id="mercury" onclick="home(mercury)" href="#coverContainer">MERCURY</a></li>
+						<li><a id="venus" onclick="home(venus)" href="#coverContainer">VENUS</a></li>
+						<li><a id="earth" onclick="home(earth)" href="#coverContainer">EARTH</a></li>
+						<li><a id="mars" onclick="home(mars)" href="#coverContainer">MARS</a></li>
+						<li><a id="jupiter" onclick="home(jupiter)" href="#coverContainer">JUPITER</a></li>
+						<li><a id="saturn" onclick="home(saturn)" href="#coverContainer">SATURN</a></li>
+						<li><a id="uranus" onclick="home(uranus)" href="#coverContainer">URANUS</a></li>
+						<li><a id="neptune" onclick="home(neptune)" href="#coverContainer">NEPTUNE</a></li>
+					</ul>
+				</li>
+				<li><a href="#navContainer">MORE</a>
+					<ul>	
+						<li><a id="about" onclick="home(about)" href="#secondaryContainer">About Us</a></li>
+						<li><a id="privacy" onclick="home(privacy)" href="#secondaryContainer">Privacy</a></li>
+					</ul>
+				</li>
+			</ul>	
+		</div>	
+		<div class="coverContainer" id="coverContainer">
+			<img class="cover" id="cover" src="image/Cover.jpg">
+		</div>
+		<div class="secondaryContainer" id="secondaryContainer">
+			<div class="containerSatu" id="containerSatu">
+				<div id="home">
+					<p class="Judul">SOLAR SYSTEM</p>
+					<div class="scroll">
+						<div class="kolomKiri">
+							<p class="deskripsi">The Solar System is the sun and all the objects that orbit around it. The Sun is orbited by planets, asteroids, comets and other things.</p>
+							<p class="deskripsi">The Solar System is about 4.6 billion years old. It formed by gravity in a large molecular cloud. Most of this matter gathered in the center, and the rest flattened into an orbiting disk that became the Solar System. It is thought that almost all stars form by this process.</p>
+							<p class="deskripsi">The Sun is a star. It contains 99.9% of the Solar System mass. This means that it has strong gravity. The other objects are pulled into orbit around the Sun. The Sun is mostly made out of hydrogen, and some helium.</p>
+							<p class="deskripsi">There are eight planets in the Solar System. From closest to farthest from the Sun, they are: <a id="mercury" onclick="home(mercury)" href="#coverContainer">Mercury</a>, <a id="venus" onclick="home(venus)" href="#coverContainer">Venus</a>, <a id="earth" onclick="home(earth)" href="#coverContainer">Earth</a>, <a id="mars" onclick="home(mars)" href="#coverContainer">Mars</a>, <a id="jupiter" onclick="home(jupiter)" href="#coverContainer">Jupiter</a>, <a id="saturn" onclick="home(saturn)" href="#coverContainer">Saturn</a>, <a id="uranus" onclick="home(uranus)" href="#coverContainer">Uranus</a> and  <a id="neptune" onclick="home(neptune)" href="#coverContainer">Neptune</a>. The first four planets are called terrestrial planets. They are mostly made of rock and metal, and they are mostly solid. The last four planets are called gas giants. This is because they are much larger than other planets and are mostly made of gas.</p>
+						</div>
+						<div class="kolomKanan">
+							<p class="deskripsi">The Solar System also contains smaller objects. The asteroid belt, which lies between the orbits of Mars and Jupiter, mostly contains objects composed, like the terrestrial planets, of rock and metal. Beyond Neptunes orbit lie the Kuiper belt and scattered disc, which are populations of trans-Neptunian objects composed mostly of ices, and beyond them a newly discovered population of sednoids. Within these populations, some objects are large enough to have rounded under their own gravity, though there is considerable debate as to how many there will prove to be.</p>
+							<p class="deskripsi">Such objects are categorized as dwarf planets. Identified or accepted dwarf planets include the asteroid Ceres and the trans-Neptunian objects Pluto and Eris.In addition to these two regions, various other small-body populations, including comets, centaurs and interplanetary dust clouds, freely travel between regions. Six of the planets, the six largest possible dwarf planets, and many of the smaller bodies are orbited by natural satellites,usually termed "moons" after the Moon. Each of the outer planets is encircled by planetary rings of dust and other small objects.</p>
+						</div>
+					</div>			
+				</div>
+				<div id="planets">
+					<div id="mainDesc">			   
+			        </div>
+			        <div id="thing">
+			        </div>
+			        <div id="did">
+			        </div>
+			        <div id="pop">
+			        </div>
+					<div class="boxSection" id="boxSection">
+						<div class="boxKiri" id="boxKiri">
+						</div>
+						<div class="box" id="box">							
+						</div>
+						<div class="boxKanan" id="boxKanan">							
+						</div>
+					</div>	
+				</div>
+				<div id="aboutS">
+					<p class="Judul">ABOUT US</p>
+					<div class="scroll">
+						<p class="fact">Solar System’s Deep Dive Planetary Website</p>
+						<p class="deskripsi">Launched in October 1998, the Solar System Exploration website is a real-time, living encyclopedia of the robotic exploration of our solar system. We provide the public with reliable, accurate, up-to-date information about the planets, moons, asteroids, comets and everything else in our solar system. We also provide a complete historical record of deep space exploration.</p>
+						<p class="fact">Management/Task Plan</p>
+						<p class="deskripsi">This site is produced for NASA's Science Mission Directorate's Planetary Science Division by the Solar System Exploration Public Engagement teams at NASA's Goddard Space Flight Center and Jet Propulsion Laboratory as part of Planetary Science Program Support Task Plan 40-15961, Rev. E.<br>Senior Leadership: Dr. Lori Glaze, Director, NASA Planetary Science Division<br>Responsible NASA Official: Kristen Erickson<br>JPL Public Engagement Manager: Alice Wessen</p>
+						<p class="fact">Web Development Team</p>
+						<p class="deskripsi">Project Lead / Producer: Phillips Davis<br>Social Media Leads: Bill Dunford and Molly Wasser<br>Science Writers: Lonnie Shekhtman and Jay Thompson<br>Web Development/Graphics: Moore Boeck<br>Original Solar System Orrery Design: Martin Vézina</p>
+					</div>
+					<img class="aboutImg" src="image/about.jpg">								
+				</div>
+				<div id="privacyS">
+					<p class="Judul">PRIVACY</p>
+					<div class="scroll">
+						<p class="deskripsi">This notice provides NASA's policy regarding the nature, purpose, use and sharing of any information collected via this Web site. The information you provide on a NASA Web site will be used only for its intended purpose. We will protect your information consistent with the principles of the Privacy Act, the e-Government act of 2002, the Federal Records Act, and as applicable, the Freedom of Information Act.</p>
+						<p class="deskripsi">Submitting information is strictly voluntary. By doing so, you are giving NASA your permission to use the information for the intended purpose. If you do not want to give NASA permission to use your information, simply do not provide it. However, not providing certain information may result in NASA's inability to provide you with the information or services you desire.<br>There are several types of information we collect. These include</p>
+						<p class="deskripsi">1. Automatically Collected Information<br>2. Information Collected for Tracking and Customization (Cookies)<br>3. Personal Information<br>4. Information from Children<br>5. Information maintained within Privacy Act Systems of Records</p>
+						<p class="deskripsi">NASA will only share your information with another government agency if it relates to that agency, or as otherwise required by law. We may share information with private organizations as part of a service that provides NASA.gov users with increased capabilities or functionality on the site. NASA never creates individual profiles.</p>
+						<p class="fact">Automatically Collected Information</p>
+						<p class="deskripsi">This website uses Google Analytics Premium. Please refer to the following policies on Google's website for more information:<br>* Google's main privacy policy<br>* Cookies & Google Analytics on Websites<br>* Opt out of Google Analytics Cookies</p>
+						<p class="fact">Information Collected for Tracking and Customization (Cookies)</p>
+						<p class="deskripsi">A cookie is a small file that a Web site transfers to your computer to allow it to remember specific information about your session while you are connected. Your computer will only share the information in the cookie with the Web site that provided it, and no other Web site can request it. There are two types of cookies, session and persistent. Session cookies last only as long as your Web browser is open. Once you close your browser, the cookie disappears. Persistent cookies store information on your computer for longer periods of time.</p>
+					</div>
+				</div>
+			</div>
+			<div class="containerDua">
+				<div class="thumbnail-slider">
+					<div class="thumbnail-container">
+						<div class="item">
+							<a id="mercury" onclick="home(mercury)" href="#coverContainer"><img style="width: 100%;" src="image/mercury.png"></a>
+						</div>
+						<div class="item">
+							<a id="venus" onclick="home(venus)" href="#coverContainer"><img style="width: 100%;" src="image/venus.png"></a>
+						</div>
+						<div class="item">
+							<a id="earth" onclick="home(earth)" href="#coverContainer"><img style="width: 100%;" src="image/earth.png"></a>
+						</div>
+						<div class="item">
+							<a id="mars" onclick="home(mars)" href="#coverContainer"><img style="width: 100%;" src="image/mars.png"></a>
+						</div>
+						<div class="item">
+							<a id="jupiter" onclick="home(jupiter)" href="#coverContainer"><img style="width: 100%;" src="image/jupiter.png"></a>
+						</div>
+						<div class="item">
+							<a id="saturn" onclick="home(saturn)" href="#coverContainer"><img style="width: 100%;" src="image/saturn.png"></a>
+						</div>
+						<div class="item">
+							<a id="uranus" onclick="home(uranus)" href="#coverContainer"><img style="width: 100%;" src="image/uranus.png"></a>
+						</div>
+						<div class="item">
+							<a id="neptune" onclick="home(neptune)" href="#coverContainer"><img style="width: 100%;" src="image/neptune.png"></a>
+						</div>
+					</div>
+  					<div class="controls">
+  					</div>
+				</div>		
+			</div>
+			<div class="footer">
+				<div class="footContainer">
+					<a class="aboutUs" id="about" onclick="home(about)" href="#secondaryContainer">About Us</a>
+					<a class="privacy" id="privacy" onclick="home(privacy)" href="#secondaryContainer">Privacy</a>	
+				</div>
+				<p style="margin-top: 0;">This site is maintained by the Planetary Science Communications</p>
+				<p>team at NASA’s Jet Propulsion Laboratory for NASA’s Science</p>
+				<p>Mission Directorate.</p>
+				<p>Director, NASA Planetary Science Division: Dr. Lori Glaze</p>
+				<p>NASA Official: Kristen Erickson</p>
+				<p>Project Lead / Producer: Phillips Davis</p>
+				<p style="margin-bottom: 2vw">Social Media Lead: Bill Dunford</p>	
+			</div>
+		</div>
+	</div>
+<script type="text/javascript">
+  	const controls=document.querySelector(".controls");
+  	const container=document.querySelector(".thumbnail-container");
+  	const allBox=container.children;
+  	const containerWidth=container.offsetWidth;
+  	const margin=30;
+  	var items=0;
+   	var totalItems=0;
+   	var jumpSlideWidth=0;
+
+
+  // item setup per slides
+
+ 	responsive=[
+  		{breakPoint:{width:0,item:2}}, //if width greater than 600 (2  item will show) 
+  		{breakPoint:{width:1000,item:3}} //if width greater than 1000 (4 item will show) 
+ 	]
+
+ 	function home(id) {
+ 		if (id == home) {
+ 			document.getElementById("cover").style.display = "block";
+ 			document.getElementById("cover").src = "image/Cover.jpg";
+ 			document.getElementById("secondaryContainer").className = "secondaryContainer";
+  			document.getElementById("home").style.display = "block";
+  			document.getElementById("planets").style.display = "none";
+  			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == mercury) {
+			var isiMain = '<p class="Judul">MERCURY</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth Moon.</p><p class="deskripsi">From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere.</p><p class="deskripsi">Mercury rotates in a way that is unique in the Solar System. It is tidally locked with the Sun in a 3:2 spin–orbit resonance,meaning that relative to the fixed stars, it rotates on its axis exactly three times for every two revolutions it makes around the Sun. As seen from the Sun, in a frame of reference that rotates with the orbital motion, it appears to rotate only once every two Mercurian years. An observer on Mercury would therefore see only one day every two Mercurian years.</p></div><div class="kolomKanan"><p class="deskripsi">Like Venus, Mercury orbits the Sun within Earth orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°. This proximity to the Sun means the planet can only be seen near the western horizon after sunset or eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object, but is often far more difficult to observe than Venus. The planet telescopically displays the complete range of phases, similar to Venus and the Moon, as it moves in its inner orbit relative to Earth, which recurs over its synodic period of approximately 116 days.</p><p class="deskripsi">Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes 87.97 days, the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger of the gods.</p></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">MERCURY : 5 Need-to-Know Things<br>About Mercury</p><div class="scroll"><p class="fact">1. Smallest</p><p class="deskripsi">Mercury is the smallest planet in our solar system—only slightly larger than Earth Moon.</p><p class="fact">2. Insider</p><p class="deskripsi">It is the closest planet to the Sun at a distance of about 36 million miles (58 million kilometers) or 0.39 AU.</p><p class="fact">3. Long Days, Short Years</p><p class="deskripsi">One day on Mercury (the time it takes for Mercury to rotate or spin once with respect to the stars) takes 59 Earth days. One day-night cycle on Mercury takes 175.97 Earth days. Mercury makes a complete orbit around the Sun (a year in Mercury time) in just 88 Earth days.</p><p class="fact">4. Rough Surface</p><p class="deskripsi">Mercury is a rocky planet, also known as a terrestrial planet. Mercury has a solid, cratered surface, much like the Earth moon.</p><p class="fact">5. Can’t Breathe It</p><p class="deskripsi">Mercury thin atmosphere, or exosphere, is composed mostly of oxygen (O2), sodium (Na), hydrogen (H2), helium (He), and potassium (K). Atoms that are blasted off the surface by the solar wind and micrometeoroid impacts create Mercury exosphere.</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">MERCURY : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Mercury/mercury1.jpg"></div></div><div class="kolomKanan"><p class="deskripsi">Because of Mercury elliptical—egg-shaped—orbit and sluggish rotation, the morning Sun appears to rise briefly, set and rise again from some parts of the planet surface. The same thing happens in reverse at sunset.</p><p class="deskripsi">To the Mercury colonists, the Sun looks nearly three times as large as it does from earth. Mercury surface experiences the steepest temperature gradient of all the planets, ranging drom a very cold -170ºC at night to scorching 420ºC during the day.</p><p class="deskripsi">The Seasons on the planet surface are caused by the variation of its distance from the Sun, growing hotter as mid-day approaches, rather than due to axial tilte.</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">MERCURY : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Mercury/mercury2.png"></div></div><div class="kolomKanan"><p class="deskripsi">The smallest planet in our solar system has a big presence in our collective imagination. Scores of science fiction writers have been inspired by Mercury, including Isaac Asimov, C. S. Lewis, Ray Bradbury, Arthur C. Clarke and H. P. Lovecraft. Television and film writers, too, have found the planet an ideal location for storytelling. In the animated television show Invader Zim, Mercury is turned into a prototype giant spaceship by the extinct Martians. And in the 2007 film Sunshine, the Icarus II spacecraft goes into orbit around Mercury to rendezvous with the Icarus I.</p><p class="deskripsi">In the comic strip Calvin and Hobbes, Calvin and his classmate Susie give a presentation about Mercury, in which Calvin contribution is full of questionable information: "The planet Mercury was named after a Roman god with winged feet," says Calvin. "Mercury was the god of flowers and bouquets, which is why today he is a registered trademark of FTD florists. Why they named a planet after this guy, I cant imagine."</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About Mercury</h1><p class="deskripsiBox">1. Smallest<br>Mercury is the smallest planet in our solar system...</p><button class="more" onclick="desc(thing)">More</button>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">Because of Mercury elliptical—egg-shaped—orbit and sluggish rotation, the morning Sun appears to rise briefly, set and rise again ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">The smallest planet in our solar system has a big presence in our collective imagination. Scores of science fiction writers have been inspired ...</p><button class="more" onclick="desc(pop)">More</button>';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+			document.getElementById("cover").style.display = "block";
+  			document.getElementById("cover").src = "image/Mercury/mercuryC.jpg";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == venus) {
+  			var isiMain = '<p class="Judul">VENUS</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">The team also revealed the origins of this structure using large-scale climate simulations. The group was led by Project Assistant Professor Hiroki Kashimura (Kobe University, Graduate School of Science) and these findings were published on January 9 in Nature Communications</p><p class="deskripsi">Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.</p></div><div class="kolomKanan"><p class="deskripsi">Jan. 31, 2019: A Japanese research group has identified a giant streak structure among the clouds covering Venus based on observation from the spacecraft Akatsuki.</p><p class="deskripsi">Venus is a terrestrial planet and is sometimes called Earth "sister planet" because of their similar size, mass, proximity to the Sun, and bulk composition. It is radically different from Earth in other respects. It has the densest atmosphere of the four terrestrial planets, consisting of more than 96% carbon dioxide. The atmospheric pressure at the planet surface is 92 times that of Earth, or roughly the pressure found 900 m (3,000 ft) underwater on Earth. Venus is by far the hottest planet in the Solar System, with a mean surface temperature of 735 K (462 °C; 863 °F), even though Mercury is closer to the Sun.</p></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">VENUS : 5 Need-to-Know Things<br>About Venus</p><div class="scroll"><p class="fact">1. Earth-Sized</p><p class="deskripsi">If the sun were as tall as a typical front door, the Earth and Venus would each be about the size of a nickel.</p><p class="fact">2. Second Rock</p><p class="deskripsi">Venus orbits our Sun, a star. Venus is the second closest planet to the sun at a distance of about 67 million miles (108 million km).</p><p class="fact">3. A Day Longer Than A Year</p><p class="deskripsi">One day on Venus lasts 243 Earth days because Venus spins backwards, with its sun rising in the west and setting in the east.</p><p class="fact">4. Diverse Terrain</p><p class="deskripsi">Venus solid surface is a volcanic landscape covered with extensive plains featuring high volcanic mountains and vast ridged plateaus.</p><p class="fact">5. Moonless and Ringless</p><p class="deskripsi">Venus has no moons and no rings.</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">VENUS : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Venus/venus1.png"></div></div><div class="kolomKanan"><p class="deskripsi" style="margin-top: 0;">The Soviet Union’s Venera 13 survived the intense heat and crushing pressure of Venus’ surface for more than two hours. Engineers from several nations are currently studying methods to extend the life of robotic spacecraft in the extreme environment.</p><p class="deskripsi" style="margin-top: 0;">Venera 13, a Soviet spacecraft, was the first lander to transmit color images from the surface of Venus. Although other landers arrived before and after it, pictures from Venera 13 are more widely circulated because they are in color.</p><p class="deskripsi" style="margin-top: 0;">The spacecraft was designed to last about half an hour on Venus harsh surface, but it ended up transmitting data for more than 2 hours after its landing on March 1, 1982. No lander has ventured to the surface of Venus since the 1980s, although several orbiters have made the journey.</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">VENUS : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Venus/venus2.png"></div></div><div class="kolomKanan"><p class="deskripsi">Named after the goddess of love and beauty, Venus has become nearly synonymous with "woman" in popular culture, as referenced by the famous relationship guide Men are from Mars, Women are from Venus. As a solar system locale, Venus was a popular destination for early 20th century science fiction writers; before we knew about what lay beneath Venus mysterious cloud cover, writers could speculate about a more hospitable planet and its possible inhabitants.</p><p class="deskripsi">More recently, Venus has been a backdrop for video games such as Transhuman Space, Battlezone and Destiny. And in the Disney animated film The Princess and the Frog, Ray the firefly falls in love with Venus, "the evening star," as he has mistaken it for another firefly.</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About Venus</h1><p class="deskripsiBox">1. Earth-Sized<br>If the sun were as tall as a typical front door, ...</p><button class="more" onclick="desc(thing)">More</button>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">The Soviet Union’s Venera 13 survived the intense heat and crushing pressure of Venus’ surface for more than two hours. Engineers ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">Named after the goddess of love and beauty, Venus has become nearly synonymous with "woman" in popular culture, as referenced by the famous ...</p><button class="more" onclick="desc(pop)">More</button>';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+  			document.getElementById("cover").style.display = "block";
+  			document.getElementById("cover").src = "image/Venus/venusC.jpg";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == earth) {
+  			var isiMain = '<p class="Judul">EARTH</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things.</p><p class="deskripsi">While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.</p><p class="deskripsi">Earth outer layer (lithosphere) is divided into several rigid tectonic plates that migrate across the surface over many millions of years.</p></div><div class="kolomKanan"><p class="deskripsi">The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is a Germanic word, which simply means “the ground.”</p><p class="deskripsi">Earth axis of rotation is tilted with respect to its orbital plane, producing seasons on Earth. The gravitational interaction between Earth and the Moon causes tides, stabilizes Earth orientation on its axis, and gradually slows its rotation. Earth is the densest planet in the Solar System and the largest and most massive of the four rocky planets.</p></div></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">EARTH : 5 Need-to-Know Things<br>About Earth</p><div class="scroll"><p class="fact">1. Measuring Up</p><p class="deskripsi">If the sun were as tall as a typical front door, the Earth and Venus would each be about the size of a nickel.</p><p class="fact">2. Third Rock</p><p class="deskripsi">Earth orbits our Sun, a star. Earth is the third planet from the Sun at a distance of about 93 million miles (150 million km).</p><p class="fact">3. As The World Turns</p><p class="deskripsi">A day on Earth is 24 hours. Earth makes a complete orbit around the sun (a year in Earth time) in about 365 days.</p><p class="fact">4. We’re On It</p><p class="deskripsi">Earth is a rocky planet with a solid and dynamic surface of mountains, canyons, plains and more. Most of our planet is covered in water.</p><p class="fact">5. Breathe Easy</p><p class="deskripsi">Earth atmosphere is 78 percent nitrogen, 21 percent oxygen and 1 percent other ingredients—the perfect balance to breathe and live.</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">EARTH : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Earth/earth1.png"></div></div><div class="kolomKanan"><p class="deskripsi">Laika the dog was the first Earthling to orbit Earth aboard the Soviet Union Sputnik 2 in 1957. She did not survive the trip. A few years later, the next two Soviet space dogs—Belka and Strelka—became the first living creatures to return from space alive—paving the way for future human explorers.</p><p class="deskripsi">The first being to travel to outer space was a female part-Samoyed terrier originally named Kudryavka (Little Curly) but later renamed Laika (Barker). She weighed about 6 kg. Image Credit: National Space Science Data Center</p><p class="deskripsi">Little was known about the impact of spaceflight on living creatures at the time of Laika mission, and the technology to de-orbit had not yet been developed, so Laika survival was never expected. Some scientists believed humans would be unable to survive the launch or the conditions of outer space, so engineers viewed flights by animals as a necessary precursor to human missions The experiment aimed to prove that a living passenger could survive being launched into orbit and endure a micro-g environment, paving the way for human spaceflight and providing scientists with some of the first data on how living organisms react to spaceflight environments.</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">EARTH : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Earth/earth2.png"></div></div><div class="kolomKanan"><p class="deskripsi">Storytellers explore the nature of our planet and possible alternate realities in many books, movies and television shows. The iconic Planet of the Apes film (and many sequels) takes place in a future in which astronauts "discover" a planet inhabited by highly intelligent apes and primitive humans, only to realize later, much to their dismay, that—spoiler alert!—it was Earth all along.</p><p class="deskripsi">In the long-running and re-booted television series Battlestar Galactica, tired survivors of a war with highly evolved robots called cylons are on a quest to find Earth, a long-lost colony.</p><p class="deskripsi">In other stories, Earth has been abandoned or destroyed, such as in the Joss Whedon series Firefly or the book and its film adaptation The Hitchhiker Guide to the Galaxy. In the animated feature Titan A.E., Earth has been destroyed by an alien species, but a well-placed planet builder recreates it and all the species that live on it.</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About<br>Earth</h1><p class="deskripsiBox">1. Measuring Up<br>If the sun were as tall as a typical front door, ...</p><button class="more" onclick="desc(thing)">More</button>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">Laika the dog was the first Earthling to orbit Earth aboard the Soviet Union Sputnik 2 in 1957. She did not survive the trip. A few ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">Storytellers explore the nature of our planet and possible alternate realities in many books, movies and television shows. The iconic ...</p><button class="more" onclick="desc(pop)">More</button>';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+  			document.getElementById("cover").style.display = "block";
+  			document.getElementById("cover").src = "image/Earth/earthC.jpg";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == mars) {
+  			var isiMain = '<p class="Judul">MARS</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere.</p><p class="deskripsi">This dynamic planet has seasons, polar ice caps and weather and canyons and extinct volcanoes, evidence of an even more active past.</p><p class="deskripsi">These robotic explorers have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago.</p></div><div class="kolomKanan"><p class="deskripsi">Mars is one of the most explored bodies in our solar system, and it the only planet where weve sent rovers to roam the alien landscape. NASA currently has three spacecraft in orbit, one rover and one lander on the surface and another rover under construction here on Earth. India and ESA also have spacecraft in orbit above Mars.</p></div></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">MARS : 5 Need-to-Know Things<br>About Mars</p><div class="scroll"><p class="fact">1. Small Planet</p><p class="deskripsi">If the Sun were as tall as a typical front door, Earth would be the size of a dime, and Mars would be about as big as an aspirin tablet.</p><p class="fact">2. Fourth Rock</p><p class="deskripsi">Mars orbits our Sun, a star. Mars is the fourth planet from the Sun at an average distance of about 228 million km (142 million miles) or 1.52 AU.</p><p class="fact">3. Longer Days</p><p class="deskripsi">One day on Mars takes a little over 24 hours. Mars makes a complete orbit around the Sun (a year in Martian time) in 687 Earth days.</p><p class="fact">4. Rugged Terrain</p><p class="deskripsi">Mars is a rocky planet. Its solid surface has been altered by volcanoes, impacts, winds, crustal movement and chemical reactions.</p><p class="fact">5. Bring a Spacesuit</p><p class="deskripsi">Mars has a thin atmosphere made up mostly of carbon dioxide (CO2), argon (Ar), nitrogen (N2), and a small amount of oxygen and water vapor.</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">MARS : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Mars/mars1.png"></div></div><div class="kolomKanan"><p class="deskripsi">Robots Blaze the Trail for Humans on Mars</p><p class="deskripsi">NASA latest robotic mission to the Red Planet, Mars 2020, aims to help future astronauts brave that inhospitable landscape.</p><p class="deskripsi">While the science goal of the Mars 2020 rover is to look for signs of ancient life — it will be the first spacecraft to collect samples of the Martian surface, caching them in tubes that could be returned to Earth on a future mission — the vehicle also includes technology that paves the way for human exploration of Mars.</p><p class="deskripsi">Robotic explorers, like the Mars 2020 rover, have long served as pathfinders to get humans into space, to the Moon and, eventually, the the surface of the Red Planet.</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">MARS : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Mars/mars2.png"></div></div><div class="kolomKanan"><p class="deskripsi">No other planet has captured our collective imagination quite like Mars.</p><p class="deskripsi">In the late 1800s when people first observed the canal-like features on Mars surface, many speculated that an intelligent alien species resided there. This led to numerous stories about Martians, some of whom invade Earth, like in the 1938 radio drama, The War of the Worlds. According to an enduring urban legend, many listeners believed the story to be real news coverage of an invasion, causing widespread panic.</p><p class="deskripsi">Countless stories since have taken place on Mars or explored the possibilities of its Martian inhabitants. Movies like Total Recall (1990 and 2012) take us to a terraformed Mars and a struggling colony running out of air. A Martian colony and Earth have a prickly relationship in The Expanse television series and novels.</p><p class="deskripsi">And in the 2014 novel and and its 2015 movie adaptation, The Martian, botanist Mark Whatney is stranded alone on the planet and struggles to survive until a rescue mission can retrieve him.</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About<br>Mars</h1><p class="deskripsiBox">1. Small Planet<br>If the Sun were as tall as a typical front door, ...</p><button class="more" onclick="desc(thing)">More</button></div>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">NASA latest robotic mission to the Red Planet, Mars 2020, aims to help future astronauts brave that inhospitable landscape. Robots Blaze ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">In the late 1800s when people first observed the canal-like features on Mars surface, many speculated that an intelligent alien species ...</p><button class="more" onclick="desc(pop)">More</button>';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+  			document.getElementById("cover").style.display = "block";
+  			document.getElementById("cover").src = "image/Mars/marsC.jpg";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == jupiter) {
+  			var isiMain = '<p class="Judul">JUPITER</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">Jupiter has a long history surprising scientists—all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe.</p><p class="deskripsi">Jupiter familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.</p></div><div class="kolomKanan"><p class="deskripsi">The outer atmosphere is visibly segregated into several bands at different latitudes, resulting in turbulence and storms along their interacting boundaries. A prominent result is the Great Red Spot, a giant storm that is known to have existed since at least the 17th century when it was first seen by telescope.</p><p class="deskripsi">Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined.</p></div></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">JUPITER : 5 Need-to-Know Things<br>About Jupiter</p><div class="scroll"><p class="fact">1. The Grandest Planet</p><p class="deskripsi">Eleven Earths could fit across Jupiter’s equator. If Earth were the size of a grape, Jupiter would be the size of a basketball.</p><p class="fact">2. Fifth Planet From Our Star</p><p class="deskripsi">Jupiter orbits about 484 million miles (778 million kilometers) or 5.2 Astronomical Units (AU) from our Sun (Earth is one AU from the Sun).</p><p class="fact">3. Short Day/Long Year</p><p class="deskripsi">Jupiter rotates once about every 10 hours (a Jovian day), but takes about 12 Earth years to complete one orbit of the Sun (a Jovian year).</p><p class="fact">4. What’s Inside</p><p class="deskripsi">Jupiter is a gas giant and so lacks an Earth-like surface. If it has a solid inner core at all, it’s likely only about the size of Earth.</p><p class="fact">5. Massive World, Light Elements</p><p class="deskripsi">Jupiter atmosphere is made up mostly of hydrogen (H2) and helium (He).</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">JUPITER : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImgSat" src="image/Jupiter/jupiter1.gif"></div></div><div class="kolomKanan"><p class="deskripsi">There are no rockets powerful enough to hurl a spacecraft into the outer solar system and beyond. In 1962, scientists calculated how to use Jupiter intense gravity to hurl spacecraft into the farthest regions of the solar system. We have been traveling farther and faster ever since.</p><p class="deskripsi">Interplanetary spacecraft often use a maneuver called a gravity assist in order to reach their targets. Voyager 2 famously used gravity assists to visit Jupiter, Saturn, Uranus and Neptune in the late 1970s and 1980s. Cassini used two assists at Venus and one each at Earth and Jupiter in order to reach Saturn. New Horizons will arrive at Pluto in 2015 thanks to an assist at Jupiter.</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">JUPITER : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Jupiter/jupiter2.png"></div></div><div class="kolomKanan"><p class="deskripsi">The biggest planet in our solar system, Jupiter also has a large presence in pop culture, including many movies, TV shows, video games and comics. Jupiter was a notable destination in the Wachowski siblings’ science fiction spectacle Jupiter Ascending, while various Jovian moons provide settings for Cloud Atlas, Futurama, Power Rangers, and Halo, among many others. In Men in Black when Agent J—played by Will Smith—mentions he thought one of his childhood teachers was from Venus, Agent K—played by Tommy Lee Jones—replies that she is actually from one of Jupiter’s moons.</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About<br>Jupiter</h1><p class="deskripsiBox">1. The Grandest Planet<br>Eleven Earths could fit across Jupiter’s ...</p><button class="more" onclick="desc(thing)">More</button>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">There are no rockets powerful enough to hurl a spacecraft into the outer solar system and beyond. In 1962, scientists calculated how to use ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">The biggest planet in our solar system, Jupiter also has a large presence in pop culture, including many movies, TV shows, video games ...</p><button class="more" onclick="desc(pop)">More</button>';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+  			document.getElementById("cover").style.display = "block";
+  			document.getElementById("cover").src = "image/Jupiter/jupiterC.jpg";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == saturn) {
+  			var isiMain = '<p class="Judul">SATURN</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">Saturn is the sixth planet from the Sun and the second largest planet in our solar system.</p><p class="deskripsi">Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn. </p></div><div class="kolomKanan"><p class="deskripsi">Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn interior is most likely composed of a core of iron–nickel and rock (silicon and oxygen compounds). Its core is surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium, and finally a gaseous outer layer.</p></div></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">SATURN : 5 Need-to-Know Things<br>About Saturn</p><div class="scroll"><p class="fact">1. A Colossal Planet</p><p class="deskripsi">Nine Earths side by side would almost span Saturn’s diameter. That doesn’t include Saturn’s rings.</p><p class="fact">2. In Dim Light</p><p class="deskripsi">Saturn is the sixth planet from our Sun (a star) and orbits at a distance of about 886 million miles (1.4 billion kilometers) from the Sun.</p><p class="fact">3. Short Day, Long Year</p><p class="deskripsi">Saturn takes about 10.7 hours (no one knows precisely) to rotate on its axis once—a Saturn “day”—and 29 Earth years to orbit the sun.</p><p class="fact">4. Gas Giant</p><p class="deskripsi">Saturn is a gas-giant planet and therefore does not have a solid surface like Earth’s. But it might have a solid core somewhere in there.</p><p class="fact">5. Hot Air</p><p class="deskripsi">Saturn atmosphere is made up mostly of hydrogen (H2) and helium (He).</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">SATURN : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Saturn/saturn1.png"></div></div><div class="kolomKanan"><p class="deskripsi">Twice every 29 and a half years the great planet Saturn appears ringless.</p><p class="deskripsi">This is an optical illusion:<br>Earthlings cannot see Saturn rings when the rings are edge-on as viewed from the Earth. They are barely visible through powerful telescopes.</p><p class="deskripsi">Saturn’s rings are among the most eye-catching sights in the solar system—and yet they haven’t always been there. A new analysis suggests the planet’s majestic bangles might be so young that if dinosaurs looked up, they could have witnessed an otherwise plain, straw-colored Saturn putting a ring on itself—one that would have been briefly enormous.<p class="deskripsi">“Even with the unaided eye, Saturn would be as bright as Venus and would be noticeably elongated,” says Matija Cuk of the SETI Institute. “If the dinosaurs had birdlike vision, they would definitely be able to see it. Not clear they would care, though.”</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">SATURN : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Saturn/saturn2.png"></div></div><div class="kolomKanan"><p class="deskripsi">Perhaps the most iconic of all the planets in our solar system, Saturn is heavily present in pop culture.</p><p class="deskripsi">It provides a backdrop for numerous science fiction stories, movies and TV shows, comics, and video games, including the Cthulhu Mythos, WALL-E, 2001: A Space Odyssey, Star Trek, Dead Space 2 and Final Fantasy VII. In Tim Burton film Beetlejuice, a dusty, fictional Saturn is populated by giant sandworms. And in the 2014 movie Interstellar, the wormhole that enables the astronauts to travel to another galaxy appears near Saturn.</p><p class="deskripsi">Saturn is also the namesake of Saturday, arguably the best day of the week.</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About<br>Saturn</h1><p class="deskripsiBox">1. A Colossal Planet<br>Nine Earths side by side would almost span Saturn’s ...</p><button class="more" onclick="desc(thing)">More</button></div>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">Twice every 29 and a half years the great planet Saturn appears ringless. This is an optical illusion: Earthlings cannot see Saturn rings ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">Perhaps the most iconic of all the planets in our solar system, Saturn is heavily present in pop culture.It provides a backdrop for numerous science ...</p><button class="more" onclick="desc(pop)">More</button>';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+  			document.getElementById("cover").style.display = "block";
+			document.getElementById("cover").src = "image/Saturn/saturnC.jpg";
+			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+		} else if (id == uranus) {
+			var isiMain = '<p class="Judul">URANUS</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star.</p><p class="deskripsi">Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn.</p></div><div class="kolomKanan"><p class="deskripsi">It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead the scientific community accepted Bode suggestion to name it Uranus, the Greek god of the sky, as suggested by Bode.</p></div></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">URANUS : 5 Need-to-Know Things<br>About Uranus</p><div class="scroll"><p class="fact">1. Huge</p><p class="deskripsi">Uranus is about four times wider than Earth. If Earth were a large apple, Uranus would be the size of a basketball.</p><p class="fact">2. Seventh Wanderer</p><p class="deskripsi">Uranus orbits our Sun, a star, and is the seventh planet from the Sun at a distance of about 1.8 billion miles (2.9 billion kilometers).</p><p class="fact">3. Short-ish Day, Longish Year</p><p class="deskripsi">Uranus takes about 17 hours to rotate once (a Uranian day), and about 84 Earth years to complete an orbit of the Sun (a Uranian year).</p><p class="fact">4. Ice Giant</p><p class="deskripsi">Uranus is an ice giant. Most of its mass is a hot, dense fluid of "icy" materials – water, methane and ammonia – above a small rocky core.</p><p class="fact">5. Gassy</p><p class="deskripsi">Uranus has an atmosphere made mostly of molecular hydrogen and atomic helium, with a small amount of methane.</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">URANUS : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Uranus/uranus1.png"></div></div><div class="kolomKanan"><p class="deskripsi">Uranus unique sideways rotation makes for weird seasons. The planet north pole experiences 21 years of nighttime in winter, 21 years of daytime in summer and 42 years of day and night in the spring and fall.</p><p class="deskripsi">The Uranian system has a unique configuration because its axis of rotation is tilted sideways, nearly into the plane of its solar orbit. Its north and south poles, therefore, lie where most other planets have their equators. In 1986, images from Voyager 2 showed Uranus as an almost featureless planet in visible light, without the cloud bands or storms associated with the other giant planets.</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">URANUS : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Uranus/uranus2.png"></div></div><div class="kolomKanan"><p class="deskripsi">Uranus is the "butt" of more than a few jokes and witty (and not so witty) puns, but it also a frequent destination in various fictional stories, such as the video game Mass Effect and TV shows like Doctor Who. The radioactive element uranium was named after Uranus when it was discovered in 1789, just eight years after the planet was discovered.</p><p class="deskripsi">Uranus, it has been pointed out, has long been the butt of jokes. As an initiation for those unfamiliar with the genre, I offer the ne plus ultra of Uranus humor:</p><p class="deskripsi">Q: Why are the U.S.S. Enterprise and toilet paper alike?<br>A: They both hunt for Klingons in the rings around Uranus.</p><p class="deskripsi">Well, that’s out of the way. Sorry if the low humor discomfits, but when writing about Uranus jokes, it is the nature of the business.</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About<br>Uranus</h1><p class="deskripsiBox">1. Huge<br>Uranus is about four times wider than Earth. If Earth ...</p><button class="more" onclick="desc(thing)">More</button>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">Uranus unique sideways rotation makes for weird seasons. The planet north pole experiences 21 years of nighttime in winter, 21 years ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">Uranus is the "butt" of more than a few jokes and witty (and not so witty) puns, but it also a frequent destination in various fictional stories, ...</p><button class="more" onclick="desc(pop)">More</button> ';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+			document.getElementById("cover").style.display = "block";
+  			document.getElementById("cover").src = "image/Uranus/uranusC.jpg";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == neptune) {
+  			var isiMain = '<p class="Judul">NEPTUNE</p><div class="scroll"><div class="kolomKiri"><p class="deskripsi">Dark, cold and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system.</p><p class="deskripsi">More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.</p></div><div class="kolomKanan"><p class="deskripsi">Neptune is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to deduce that its orbit was subject to gravitational perturbation by an unknown planet. The position of Neptune was subsequently calculated from Bouvard observations, independently, by John Couch Adams and Urbain Le Verrier after his death</p></div></div>';
+			document.getElementById("mainDesc").innerHTML = isiMain;
+			var isiThing = '<p class="Judul">NEPTUNE : 5 Need-to-Know Things<br>About Neptune</p><div class="scroll"><p class="fact">1. Giant</p><p class="deskripsi">Neptune is about four times wider than Earth. If Earth were a large apple, Neptune would be the size of a basketball.</p><p class="fact">2. Eighth Wanderer</p><p class="deskripsi">Neptune orbits our Sun, a star, and is the eighth planet from the Sun at a distance of about 2.8 billion miles (4.5 billion kilometers).</p><p class="fact">3. Short Day, Long Year</p><p class="deskripsi">Neptune takes about 16 hours to rotate once (a Neptunian day), and about 165 Earth years to orbit the sun (a Neptunian year).</p><p class="fact">4. Faint Rings</p><p class="deskripsi">Neptune has at least five main rings and four more ring arcs, which are clumps of dust and debris likely formed by the gravity of a nearby moon.</p><p class="fact">5. One Voyage There</p><p class="deskripsi">Voyager 2 is the only spacecraft to have visited Neptune. No spacecraft has orbited this distant planet to study it at length and up close.</p></div>';
+			document.getElementById("thing").innerHTML = isiThing;
+			var isiDid = '<p class="Judul">NEPTUNE : Did You Know ?</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Neptune/neptune1.png"></div></div><div class="kolomKanan"><p class="deskripsi">Neptune is our solar system windiest world. Winds whip clouds of frozen methane across the planet at speeds of more than 2,000 km/h (1,200 mph)—close to the top speed of a U.S. Navy F/A-18 Hornet fighter jet. Earth most powerful winds hit only about 400 km/h (250 mph).</p><p class="deskripsi">NASA Dryden F/A-18 #852 mission support aircraft in flight. Image Credit: NASA Photo / Lori Losey</p><p class="deskripsi">he McDonnell Douglas F/A-18 Hornet was designed for aircraft carrier duty and was the first tactical aircraft designed to carry out both air-to-air and air-to-ground missions. The U.S. Marines ordered it as an F-18 fighter and the Navy as an A-18 attack aircraft. It can switch roles easily and can also be adapted for photoreconnaissance and electronic countermeasure missions.</p></div></div>';
+			document.getElementById("did").innerHTML = isiDid;
+			var isiPop = '<p class="Judul">NEPTUNE : Pop Culture</p><div class="scroll"><div class="kolomKiri"><div style="width: 100%"><img class="descImg" src="image/Neptune/neptune2.png"></div></div><div class="kolomKanan"><p class="deskripsi">Even though Neptune is the farthest planet from our Sun, it a frequent stop in pop culture and fiction. The planet served as the backdrop for the 1997 science fiction horror film Event Horizon, while in the cartoon series Futurama, the character Robot Santa Claus has his home base on Neptune north pole. Dr. Who fans will remember that an episode entitled "Sleep No More" is set on a space station orbiting Neptune. And in the Star Trek: Enterprise pilot episode, "Broken Bow," viewers learn that at warp 4.5 speed, it is possible to fly to Neptune and back to Earth in six minutes</p></div></div>';
+			document.getElementById("pop").innerHTML = isiPop;
+			var isiBoxKiri = '<h1 class="subJudul">5 Need-to-Know Things About<br>Neptune</h1><p class="deskripsiBox">1. Giant<br>Neptune is about four times wider than Earth. If Earth ...</p><button class="more" onclick="desc(thing)">More</button></div>';
+			document.getElementById("boxKiri").innerHTML = isiBoxKiri;
+			var isiBox = '<h1 class="subJudul">Did You Know ?</h1><p class="deskripsiBox">Neptune is our solar system windiest world. Winds whip clouds of frozen methane across the planet at speeds of more than 2,000 km/h ...</p><button class="more" onclick="desc(did)">More</button>';
+			document.getElementById("box").innerHTML = isiBox;
+			var isiBoxKanan = '<h1 class="subJudul">Pop Culture</h1><p class="deskripsiBox">Even though Neptune is the farthest planet from our Sun, it a frequent stop in pop culture and fiction. The planet served as the backdrop for the 1997 ...</p><button class="more" onclick="desc(pop)">More</button>';
+			document.getElementById("boxKanan").innerHTML = isiBoxKanan;
+  			document.getElementById("cover").style.display = "block";
+  			document.getElementById("cover").src = "image/Neptune/neptuneC.jpg";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "block";
+  			document.getElementById("mainDesc").style.display = "block";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "block";
+			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == about) {
+  			document.getElementById("cover").style.display = "none";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "none";
+  			document.getElementById("mainDesc").style.display = "none";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "none";
+  			document.getElementById("aboutS").style.display = "block";
+  			document.getElementById("privacyS").style.display = "none";
+  		} else if (id == privacy) {
+  			document.getElementById("cover").style.display = "none";
+  			document.getElementById("secondaryContainer").className = "secondaryContainer1";
+  			document.getElementById("home").style.display = "none";
+  			document.getElementById("planets").style.display = "none";
+  			document.getElementById("mainDesc").style.display = "none";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			document.getElementById("boxSection").style.display = "none";
+  			document.getElementById("aboutS").style.display = "none";
+  			document.getElementById("privacyS").style.display = "block";
+  		}
+	}
+
+	function desc(id){
+		if (id == thing) {
+			document.getElementById("mainDesc").style.display = "none";
+			document.getElementById("thing").style.display = "block";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "none";
+			window.location.href="#thing";
+		} else if (id == did) {
+			document.getElementById("mainDesc").style.display = "none";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "block";
+			document.getElementById("pop").style.display = "none";
+			window.location.href="#did";
+		} else if (id == pop) {
+			document.getElementById("mainDesc").style.display = "none";
+			document.getElementById("thing").style.display = "none";
+			document.getElementById("did").style.display = "none";
+			document.getElementById("pop").style.display = "block";
+			window.location.href="#pop";
+		}
+	}
+
+ 	function load(){
+     	for(let i=0; i<responsive.length;i++){
+     		if(window.innerWidth>responsive[i].breakPoint.width){
+     			items=responsive[i].breakPoint.item
+     		}
+     	}
+     	start();
+ 	}
+ 
+ 	function start(){
+ 	 	var totalItemsWidth=0
+ 		for(let i=0;i<allBox.length;i++){
+ 		 // width and margin setup of items
+ 			allBox[i].style.width=(containerWidth/items)-margin + "px";
+ 			allBox[i].style.margin=(margin/2)+ "px";
+        	totalItemsWidth+=containerWidth/items;
+        	totalItems++;
+ 		}
+
+ 	// thumbnail-container width set up
+ 	container.style.width=totalItemsWidth + "px";
+
+ 	// slides controls number set up
+ 	 const allSlides=Math.ceil(totalItems/items);
+     const ul=document.createElement("ul");
+        for(let i=1;i<=allSlides;i++){
+          const li=document.createElement("li");
+               li.id=i;
+               li.innerHTML=i;
+               li.setAttribute("onclick","controlSlides(this)");
+               ul.appendChild(li);
+               if(i==1){
+               	li.className="active";
+               }
+        }
+        controls.appendChild(ul);
+ 	}
+
+    // when click on numbers slide to next slide
+ 	function controlSlides(ele){
+       // select controls children  'ul' element 
+       const ul=controls.children;
+
+       // select ul children 'li' elements;
+      const li=ul[0].children
+        
+       
+       var active;
+
+       for(let i=0;i<li.length;i++){
+       	if(li[i].className=="active"){
+       		// find who is now active
+       		active=i;
+       		// remove active class from all 'li' elements
+       		li[i].className="";
+       	}
+       }
+       // add active class to current slide
+       ele.className="active";
+
+       var numb=(ele.id-1)-active;
+        jumpSlideWidth=jumpSlideWidth+(containerWidth*numb);
+       	container.style.marginLeft=-jumpSlideWidth + "px";
+ 	}
+</script>
+</body>
+</html>
